@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:layout_margin="50dp">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/sol">
+
+    </ImageView>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:text="Login"
+        android:layout_gravity="center"
+        android:textColor="@color/verde"
+        android:fontFamily="@font/broadway">
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/editaemail"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="100dp"
+        android:hint="  email aqui"
+        android:background="@color/amarelinho"
+        >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/editasenha"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="50dp"
+        android:hint="  senha aqui"
+        android:background="@color/amarelinho">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/butanir"
+        android:layout_marginTop="50dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Entra"
+        android:backgroundTint="@color/clara"
+        android:fontFamily="@font/broadway"
+        android:textColor="@color/vermelho">
+
+    </Button>
+
+
+
+
+
+
+</LinearLayout>

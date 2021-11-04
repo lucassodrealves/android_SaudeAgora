@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Cadastro"
+    android:layout_margin="50dp">
+
+
+
+    <ImageView
+
+        android:layout_height="50dp"
+        android:layout_width="100dp"
+        android:src="@drawable/sol"
+        android:layout_gravity="center">
+
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:textSize="50dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/verde"
+        android:text="Cadastro"
+        android:fontFamily="@font/broadway">
+
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/amarelinho"
+        android:hint=" email aqui">
+
+    </EditText>
+
+    <EditText
+
+        android:id="@+id/senha"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/amarelinho"
+        android:hint=" senha aqui">
+
+    </EditText>
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="120dp"
+        android:text="Cadastra"
+        android:fontFamily="@font/broadway"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textColor="@color/vermelho"
+        android:backgroundTint="@color/clara">
+
+    </Button>
+
+
+
+
+
+
+</LinearLayout>
